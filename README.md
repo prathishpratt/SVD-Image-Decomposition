@@ -32,6 +32,22 @@ Image Compression is the process of reducing the size of the image without signi
 
 In this project, we explore the conventional linear algebra-based approach as well as the state-of-the-art approach for image compression. The comparison of Singular Value Decomposition (SVD) with the SOTA approach of using High Fidelity Generative Compression.
 
+## Instructions to run the project
+1. Ensure that the following libraries are installed in your environment.
+```
+imageio==2.31.5
+ipynb==0.5.1
+ipython==8.17.2
+ipywidgets==8.1.1
+matplotlib==3.8.1
+numpy==1.26.2
+Pillow==10.1.0
+Pillow==10.1.0
+skimage==0.0
+tensorflow==2.15.0
+tensorflow_macos==2.15.0
+```
+
 ## SVD Approach
 Singular Value Decomposition (SVD) serves as a robust mathematical tool for image compression. By decomposing an image matrix into three constituent matrices—U, Σ (Sigma), and V^T—SVD enables a more concise representation of the original image. 
 

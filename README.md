@@ -54,7 +54,7 @@ tensorflow_macos==2.15.0
    Change the path to read the downloaded images to your local machine's current path. After that, you can just sequentially run all the cells and get the results.
 
 4. Open [`HiFiC.ipynb`](https://github.com/prathishpratt/SVD-Image-Decomposition/blob/main/SRC/SOTA/HiFiC.ipynb) and run all the cells. <br>
-   But I would strongly suggest to run their Colab notebook as it has less dependencies.
+   But I would strongly suggest running their Colab notebook as it has fewer dependencies.
    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Justin-Tan/high-fidelity-generative-compression/blob/master/assets/HiFIC_torch_colab_demo.ipynb) to run the SOTA code. 
 
 
@@ -77,10 +77,16 @@ This study extensively explores the integration of Generative Adversarial Networ
 
 Compare results from the earlier approach and SOTA implementation.
 
-The visual quality of the images becomes unacceptable when the number of singular values is decreased. Optimizing a neural compression scheme with a GAN yields reconstructions with high perceptual fidelity that are visually close to the input. Users of HiFiC method can benefit from better reconstructions at lower bitrates, reducing the amount of storage needed to save pictures and the bandwidth required to transmit pictures.
+The visual quality of the images becomes unacceptable when the number of singular values is decreased. Optimizing a neural compression scheme with a GAN yields reconstructions with high perceptual fidelity that are visually close to the input. Users of the HiFiC method can benefit from better reconstructions at lower bitrates, reducing the amount of storage needed to save pictures and the bandwidth required to transmit pictures.
 
 ![image](https://github.com/prathishpratt/SVD-Image-Decomposition/assets/49114256/e68d779a-aabe-4194-be88-e9ec6e752cc7)
 
 ## Conclusion
 
-Image compression using SVD and HiFiC techniques are evaluated based on their performance using perceptual metrics.  Since we are computing the SVD, SSIM and multiplying the U, S and V matrices together on each round of the algorithm, its performance is poor than the generally accepted compression techniques today. In conclusion, the SVD approach proved robust, simple, easy to implement, and efficient in a constrained environment
+Image compression using SVD and HiFiC techniques are evaluated based on their performance using perceptual metrics.  Since we are computing the SVD, SSIM and multiplying the U, S and V matrices together on each round of the algorithm, its performance is poorer than the generally accepted compression techniques today. In conclusion, the SVD approach proved robust, simple, easy to implement, and efficient in a constrained environment
+
+## Extra Materials
+
+Report can be found at [Notion](https://scalloped-koala-2ac.notion.site/Image-Compression-using-Singular-Valued-Decomposition-f9d5b47efa004208929089e8ac99dc11)
+<br>
+Presentation can 

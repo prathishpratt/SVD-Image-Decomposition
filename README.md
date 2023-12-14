@@ -1,4 +1,4 @@
-# Image Compression using Singular Valued Decomposition
+![SVD](https://github.com/prathishpratt/SVD-Image-Decomposition/assets/64516584/b2a998a7-2371-4ed6-918d-df8ebc0dbc2c)# Image Compression using Singular Valued Decomposition
 
 ### Supervisor:
 
@@ -52,6 +52,8 @@ tensorflow_macos==2.15.0
 Singular Value Decomposition (SVD) serves as a robust mathematical tool for image compression. By decomposing an image matrix into three constituent matrices—U, Σ (Sigma), and V^T—SVD enables a more concise representation of the original image. 
 
 The key to compression lies in selectively retaining the first k singular values and their associated columns in U and V. The truncated singular values are then utilized to reconstruct the compressed image matrix. This process, while introducing some loss, allows for a substantial reduction in data size, making it an efficient method for optimizing storage, transmission, and computational resources.
+
+![SVD](https://github.com/prathishpratt/SVD-Image-Decomposition/assets/64516584/58003c02-c1de-4d5a-aeb9-381ad6370b82)
 
 ## State Of The Art Approach
 This study extensively explores the integration of Generative Adversarial Networks (GANs) and learned compression techniques to create a state-of-the-art generative lossy compression system. The investigation covers normalization layers, generator and discriminator architectures, training strategies, and perceptual losses. Notably, the outcomes include visually pleasing reconstructions with perceptual similarity to the input, operation across a broad range of bitrates, and applicability to high-resolution images. In bridging the gap between rate-distortion-perception theory and practical implementation, the approach is assessed quantitatively using various perceptual metrics and through a user study.

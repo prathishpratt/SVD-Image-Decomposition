@@ -1,4 +1,4 @@
-![SVD](https://github.com/prathishpratt/SVD-Image-Decomposition/assets/64516584/b2a998a7-2371-4ed6-918d-df8ebc0dbc2c)# Image Compression using Singular Valued Decomposition
+# Image Compression using Singular Valued Decomposition
 
 ### Supervisor:
 
@@ -53,6 +53,7 @@ Singular Value Decomposition (SVD) serves as a robust mathematical tool for imag
 
 The key to compression lies in selectively retaining the first k singular values and their associated columns in U and V. The truncated singular values are then utilized to reconstruct the compressed image matrix. This process, while introducing some loss, allows for a substantial reduction in data size, making it an efficient method for optimizing storage, transmission, and computational resources.
 
+Here is a GIF made from our implementation of SVD
 ![SVD](https://github.com/prathishpratt/SVD-Image-Decomposition/assets/64516584/58003c02-c1de-4d5a-aeb9-381ad6370b82)
 
 ## State Of The Art Approach

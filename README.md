@@ -89,4 +89,4 @@ Image compression using SVD and HiFiC techniques are evaluated based on their pe
 
 Report can be found at [Notion](https://scalloped-koala-2ac.notion.site/Image-Compression-using-Singular-Valued-Decomposition-f9d5b47efa004208929089e8ac99dc11)
 <br>
-Presentation can 
+Presentation can be found at [Canva](https://www.canva.com/design/DAF1VY21Tec/qstyBfscza6C_9q4kyl4_g/view?utm_content=DAF1VY21Tec&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)

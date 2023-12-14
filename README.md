@@ -33,7 +33,10 @@ Image Compression is the process of reducing the size of the image without signi
 In this project, we explore the conventional linear algebra-based approach as well as the state-of-the-art approach for image compression. The comparison of Singular Value Decomposition (SVD) with the SOTA approach of using High Fidelity Generative Compression.
 
 ## Instructions to run the project
-1. Ensure that the following libraries are installed in your environment.
+
+Running on local:
+
+1. Please ensure that the following libraries are installed in your environment.
 ```
 imageio==2.31.5
 ipynb==0.5.1
@@ -47,6 +50,13 @@ skimage==0.0
 tensorflow==2.15.0
 tensorflow_macos==2.15.0
 ```
+2. Open [`Image_SVD.ipynb`](https://github.com/prathishpratt/SVD-Image-Decomposition/blob/main/SRC/Lin_Alg/Image_SVD.ipynb) and run all the cells. <br>
+   Change the path to read the downloaded images to your local machine's current path. After that, you can just sequentially run all the cells and get the results.
+
+4. Open [`HiFiC.ipynb`](https://github.com/prathishpratt/SVD-Image-Decomposition/blob/main/SRC/SOTA/HiFiC.ipynb) and run all the cells. <br>
+   But I would strongly suggest to run their Colab notebook as it has less dependencies.
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Justin-Tan/high-fidelity-generative-compression/blob/master/assets/HiFIC_torch_colab_demo.ipynb) to run the SOTA code. 
+
 
 ## SVD Approach
 Singular Value Decomposition (SVD) serves as a robust mathematical tool for image compression. By decomposing an image matrix into three constituent matrices—U, Σ (Sigma), and V^T—SVD enables a more concise representation of the original image. 
